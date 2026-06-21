@@ -1,5 +1,8 @@
 #include <stdio.h>
 int main() {
-    printf("hojdsdsja\n");
+    printf("Práctica de Lenguaje C\n");
+    float hola;
+    hola = 3.14;
+    
     return 0;
 }
