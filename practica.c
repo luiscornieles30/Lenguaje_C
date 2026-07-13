@@ -7,7 +7,9 @@ int main() { // Comentarios
     scanf("%d", &luisito);
     printf("Ingrese el siguente texto ");
     scanf(" %49[^\n]", texto);
-    printf("El texto ingresado es: %s y el numero ingresado es %d", texto, luisito);
-    getch();
+    if (luisito > 300) {
+        printf("Eres Positivamente postivo)");
+        } 
+    getchar();
     return 0;
 }
